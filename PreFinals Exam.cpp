@@ -83,13 +83,13 @@ int main()
 			cin >> secondLetter;
 			secondLetter = tolower(secondLetter);
 
-			if (secondLetter == 'u' || secondLetter == 'U') {
+			if (secondLetter == 'u') {
 				cout << "Your Instructor for " << subjects[3] << " is " << instructors[2];
 				isNotFound = false;
 				
 			}
 
-			if (secondLetter == 'h' || secondLetter == 'H') {
+			if (secondLetter == 'h') {
 				cout << "Your Instructor for " << subjects[6] << " is " << instructors[3];
 				isNotFound = false;
 				
@@ -97,31 +97,31 @@ int main()
 
 		}
 
-		if (firstLetter == 'm' || firstLetter == 'M') {
+		if (firstLetter == 'm') {
 			cout << "Your Instructor for " << subjects[2] << " is " << instructors[4];
 			isNotFound = false;
 			
 		}
 
-		if (firstLetter == 'e' || firstLetter == 'E') {
+		if (firstLetter == 'e') {
 			cout << "Your Instructor for " << subjects[4] << " is " << instructors[5];
 			isNotFound = false;
 			
 		}
 
-		if (firstLetter == 'k' || firstLetter == 'K') {
+		if (firstLetter == 'k') {
 			cout << "Your Instructor for " << subjects[5] << " is " << instructors[5];
 			isNotFound = false;
 			
 		}
 
-		if (firstLetter == 'u' || firstLetter == 'U') {
+		if (firstLetter == 'u') {
 			cout << "Your Instructor for " << subjects[7] << " is " << instructors[5];
 			isNotFound = false;
 			
 		}
 
-		if (firstLetter == 'n' || firstLetter == 'N') {
+		if (firstLetter == 'n') {
 			cout << "Your Instructor for " << subjects[8] << " is " << instructors[3];
 			isNotFound = false;
 			
