@@ -134,7 +134,4 @@ int main()
 		cout << endl;
 
 	return 0;
-}ut << endl;
-
-	return 0;
 }
